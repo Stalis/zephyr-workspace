@@ -1,0 +1,30 @@
+{
+  "projects": {
+    "love-pager": {
+      "relPath": "love-pager",
+      "name": "love-pager",
+      "buildConfigs": {
+        "build/esp32c3_supermini/esp32c3": {
+          "relBoardSubDir": "others/esp32c3_supermini",
+          "board": "esp32c3_supermini/esp32c3",
+          "name": "build/esp32c3_supermini/esp32c3",
+          "compilerOptimization": "debug",
+          "westBuildArgs": [],
+          "westBuildCMakeArgs": [
+            "-DCONFIG_DEBUG_OPTIMIZATIONS=y",
+            "-DCONFIG_DEBUG_THREAD_INFO=y"
+          ],
+          "confFiles": {
+            "config": [],
+            "overlay": []
+          }
+        }
+      },
+      "twisterConfigs": {},
+      "confFiles": {
+        "config": [],
+        "overlay": []
+      }
+    }
+  }
+}

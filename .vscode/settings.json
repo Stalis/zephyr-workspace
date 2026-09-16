@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.defaultProfile.osx": "Zephyr IDE Terminal",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/.vscode/compile_commands.json",
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "/Users/stalis/Develop/Zephyr/main-workspace/love-pager"
+}
