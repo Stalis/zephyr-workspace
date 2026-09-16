@@ -22,7 +22,12 @@
       },
       "twisterConfigs": {},
       "confFiles": {
-        "config": [],
+        "config": [
+          {
+            "path": "love-pager/prj_dashboard.conf",
+            "extra": true
+          }
+        ],
         "overlay": []
       }
     }
